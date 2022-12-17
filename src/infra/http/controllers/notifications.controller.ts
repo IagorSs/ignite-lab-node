@@ -6,7 +6,7 @@ import { CreateNotificationBody } from '../dtos/create-notification-body';
 export class NotificationsController {
   constructor(private sendNotification: SendNotification) {}
 
-  @Post('notifications')
+  @Post()
   async createNotification(@Body() body: CreateNotificationBody) {
     const { recipientId, content, category } = body;
 
