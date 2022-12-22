@@ -2,9 +2,7 @@
   "name": "ignite-lab-node",
   "version": "0.0.1",
   "description": "",
-  "author": "",
-  "private": true,
-  "license": "UNLICENSED",
+  "author": "Iagor de Sousa",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
